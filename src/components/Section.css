@@ -1,0 +1,122 @@
+.history{
+    margin-top: 50px;
+    width: 100%;
+}
+.info {
+    display: flex;
+    justify-content: center;
+}
+.infodetail{
+    margin-right: 30px;
+    margin-top: 30px;
+    width: 300px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px ;
+    border-radius: 10px;
+}
+.infodetail h1{
+    font-size: 18px;
+    margin: 0px;
+}
+
+.infodetail h2{
+    font-size: 25px;
+    margin: 0px;
+}
+.infodetail p{
+    font-size: 12px;
+    margin: 0px;
+}
+
+.pink{
+    background-color: rgba(251, 178, 180, 1);
+}
+.blue{
+    background: linear-gradient(278.29deg, #29DFFF 30.05%, rgba(41, 223, 255, 0) 133.19%);
+}
+.purple{
+    background: linear-gradient(278.29deg, #AB84C8 30.05%, rgba(241, 201, 236, 0) 133.19%);
+
+}
+.table{
+    width: 97%;
+    margin: 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border: 1px solid grey;
+}
+.tabledetail{
+    display: flex;
+    
+}
+.tabledetail h1{
+    padding: 0px  30px;
+    width: 40%;
+    font-size: 18px;
+}
+.tabledetail p{
+    padding: 0px  30px;
+    width: 40%;
+    font-size: 14px;
+    font-weight: 800;
+    display: flex;
+    justify-content: flex-end;
+}
+.tableData{
+    margin-top: 20px;
+    width: 100%;
+}
+
+th{
+    border-bottom: 1px solid grey;
+    width: 200px;
+    font-size: 14px;
+    text-align: center;
+}
+td{
+    padding: 10px;
+    font-size: 12px;
+    color: rgba(206, 206, 206, 1);
+;
+}
+
+.products{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 65%;
+    background-color: #BEC3CA4D;
+}
+.listProducts{
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.productImage{
+    width: 230px;
+    height:125px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.productBody{
+    margin-top: 5px;
+}
+.productTitle{
+    font-size: 16px;
+    margin: 0px;
+    font-weight: 600;
+}
+.productPrice{
+    font-size: 14px;
+    font-weight: 700;
+}

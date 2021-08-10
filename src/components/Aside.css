@@ -1,0 +1,271 @@
+.aside{
+    margin-top: 50px;
+    width: 35%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.cartEmpty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.cartEmpty img{
+    height: 150px;
+    width: auto;
+}
+.cartEmpty h1{
+    font-size: 20px;
+    margin-top: -30px;
+    margin-bottom: 0px;
+}
+.cartEmpty p{
+    font-size: 12px;
+    margin-top: 5px;
+    color:rgba(206, 206, 206, 1);
+;
+}
+.listCart{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 10px;
+}
+
+.cartImage img{
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+    overflow: hidden;
+    object-position: center;
+    object-fit: cover;
+}
+.cartBody{
+    padding-left: 10px;
+
+}
+.cartTitle {
+    width: 100%;
+    display: flex;
+    /* border: 1px solid red; */
+}
+.cartTitle .title{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    /* background-color: hotpink; */
+    font-size: 18px;
+    margin: 0px;
+    font-weight: 600;
+}
+.cartTitle .cancel{
+    width: 50%;
+    /* background-color: hotpink; */
+    
+    display: flex;
+    justify-content: flex-end;
+}
+.cartTitle .cancel button{
+    cursor: pointer;
+}
+.cartPriceQty{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 25px;
+}
+.cartQty{
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(129, 222, 58, 0.514);
+    background-color: rgba(129, 222, 58, 0.24);
+}
+.cartQty button{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: rgba(129, 222, 58, 0.24);
+}
+.cartQty span{
+    display: flex;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}
+.cartPrice{
+    font-weight: 700;
+    font-size: 15px;
+}
+.totalPrice{
+    margin-left: 180px;
+}
+
+/* CheckOut and Total Price */
+
+.CheckOut{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 35%;
+    /* border: 1px solid red; */
+}
+.totalAll{
+    display: flex;
+    margin:0px 10px;
+}
+.totalAll h1{
+    font-size: 20px;
+    width: 50%;
+    font-weight: 900;
+}
+.totalAll .price{
+    width: 50%;
+    display: flex;
+    font-weight: 900;
+    justify-content: flex-end;
+}
+.total p{
+    margin : 2px 15px;
+    /* margin-left: 15px; */
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.button button{
+    padding: 10px;
+    font-size: 15px;
+    margin: 2px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.button .checkOut{
+    background-color: rgba(87, 202, 213, 1);
+}
+.button .Cancel{
+    background: rgba(242, 79, 138, 1);
+}
+.checkOut:hover{
+    border: 2px solid royalblue;
+}
+.Cancel:hover{
+    border: 2px solid red;
+}
+
+.react-responsive-modal-modal{
+    width: 400px;
+    border-radius: 5px;
+}
+
+
+
+.invoice{
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.invoiceTitle .check{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.invoiceTitle .check span{
+    font-size: 14px;
+    margin-left: 160px;
+}
+
+.invoiceTitle .cashier{
+    font-size: 14px;
+    margin: 0px;
+    font-weight: 500;
+}
+.invoice {
+    font-size: 15px;
+}
+.invoice .product{
+    width: 50%;
+}
+
+.invoice .product p{
+    margin: 2px;
+}
+
+.invoice .Price {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.invoice .Price .priceproduct{
+    margin: 2px;
+}
+
+.totalPpn{
+    display: flex;
+    width: 100%;
+    font-size: 15px;    
+    font-weight: 600;
+}
+
+.ppnPayment{
+    width: 50%;
+}
+.ppnPayment .ppn{
+    margin: 2px;
+}
+.ppnPayment .pay{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 2px;
+}
+
+.totalPayment{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.buttonPayment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttonPayment button{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 20px;
+    color: white;
+}
+.buttonPayment p{
+    margin: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.print{
+    background-color: rgba(87, 202, 213, 1);
+}
+.email{
+    background-color: rgba(242, 79, 138, 1);
+}
