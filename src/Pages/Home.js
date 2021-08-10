@@ -75,6 +75,7 @@ class Home extends Component{
 
         // check data array cart
         const checkdata  = (data) =>{
+            // eslint-disable-next-line array-callback-return
             const find = cart.find((e) => {
                 if (e.id === data){
                     return e
@@ -119,6 +120,7 @@ class Home extends Component{
         }
          // menambahkan data baru ke array cart
         const onAdd = (data) =>{
+            // eslint-disable-next-line array-callback-return
             const find = products.find((e) => {
                 if(e.id === data){
                     return e
