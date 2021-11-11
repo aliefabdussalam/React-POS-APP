@@ -97,7 +97,7 @@ restaurant sales data
 
 Order a Food           |  CheckOut
 :-------------------------:|:-------------------------:
-![](.\screenshot/Screenshot%20(66).png)  |  ![](./screenshot/Screenshot%20(3).png)
+![](./screenshot/Screenshot%20(66).png)  |  ![](./screenshot/Screenshot%20(3).png)
 
 Add New Product           |  History Page
 :-------------------------:|:-------------------------:
