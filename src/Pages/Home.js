@@ -36,7 +36,7 @@ class Home extends Component{
                 price   : 28000
                 },{
                 id : 6,
-                picture : 'https://www.hothungama.com/wp-content/uploads/2017/11/Black-Forest-Cake.jpeg',
+                picture : 'https://www.readersdigest.ca/wp-content/uploads/2014/02/black-forest-cake.jpg',
                 nameproduct : "Black Forest",
                 price   : 30000
                 },{
@@ -105,9 +105,10 @@ class Home extends Component{
 
         // menghapus data di array cart berdasarkan id
         const remove = (data) =>{
-            const newcart = checkdata(data)
-            cart.splice([newcart],1)
-            updatecart()
+            const filter =  cart.filter(x => x.id !== data)
+            this.setState({
+                cart : filter
+            })
         }
         // menghapus semua data di array cart
         const removeAll = () =>{

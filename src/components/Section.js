@@ -12,6 +12,7 @@ class Section extends React.Component{
                     <div className='history'>
                         <div className='info'>
                             <div className='infodetail pink'>
+                                
                                 <h1>Today Income</h1>
                                 <h2>Rp 1.000.000</h2>
                                 <p>+2% Yesterday</p>
