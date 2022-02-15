@@ -9,52 +9,78 @@ class Home extends Component{
         super(props)
         this.state = {
             products:[{
-                picture : 'https://d.newsweek.com/en/full/1001693/coffee-espresso-stock.jpg',
-                id : 1,
-                nameproduct : "Espresso",
-                price : 10000
-                },
-                {
-                id : 2,
-                picture : 'https://brookrest.com/wp-content/uploads/2020/05/AdobeStock_315919556-scaled.jpeg',
-                nameproduct : "Coffee Latte",
-                price   : 15000
-                },{
-                id : 3,
-                picture : 'https://www.thespruceeats.com/thmb/SyX_yUyCFOtuqWC2QFrM25JTmsA=/4413x2942/filters:fill(auto,1)/how-to-make-cappuccinos-766116-hero-01-a754d567739b4ee0b209305138ecb996.jpg',
-                nameproduct : "Cappucino",
-                price   : 5000
-                },{
-                id : 4,
-                picture : "https://blog.fnp.ae/wp-content/uploads/2018/06/RedVelvetCake-Recipe.jpg",
-                nameproduct : "Red Velvet Latte ",
-                price   : 33000
-                },{
-                id : 5,
-                picture : 'https://www.chocomonamour.fr/sites/default/files/styles/uc_product_full/public/choco_rhum_ouvert.jpg?itok=Q2sXRiab',
-                nameproduct : "Choco Rhum",
-                price   : 28000
-                },{
-                id : 6,
-                picture : 'https://www.readersdigest.ca/wp-content/uploads/2014/02/black-forest-cake.jpg',
-                nameproduct : "Black Forest",
-                price   : 30000
-                },{
-                id : 7,
-                picture : 'https://images.media-allrecipes.com/userphotos/5816671.jpg',
-                nameproduct : "Chicken Katsu Dabu Dabu",
-                price   : 60000
-                },{
-                id : 8,
-                picture : 'https://s3-eu-west-1.amazonaws.com/straus/media/products2/2f79d5db1af54e1c80042589663673ac.jpg',
-                nameproduct : "Salmon Truffle Teriyaki",
-                price   : 60000
-                },{
-                id : 9,
-                picture : 'http://4.bp.blogspot.com/-Mu1Qn23rj98/T5hdervfIMI/AAAAAAAAAlM/2ixB45ekbcw/s1600/DSC_2219.jpg',
-                nameproduct : "Wiener Schnitzel",
-                price   : 69000
-                }],
+                nameproduct: 'espresso',
+                id :1,
+                price: 10000,
+                priceStyle: 'Rp. 10.000',
+                qty: 1,
+                picture: "./photo/firdaus-roslan-pN769u0KHNA-unsplash.png",
+            },
+            {
+                nameproduct: 'coffee latte',
+                id :2,
+                price: 15000,
+                priceStyle: 'Rp. 15.000',
+                qty: 1,
+                picture: "./photo/bear.png",
+            },
+            {
+                nameproduct: 'cappucino',
+                id :3,
+                price: 5000,
+                priceStyle: 'Rp. 5.000',
+                qty: 1,
+                picture: "./photo/firdaus-roslan-pN769u0KHNA-unsplash.png",
+            },
+            {
+                nameproduct: 'red velvet',
+                id :4,
+                price: 33000,
+                priceStyle: 'Rp. 33.000',
+                qty: 1,
+                picture: "./photo/redvelvet.png",
+            },
+            {
+                nameproduct: 'chocorum',
+                id :5,
+                price: 28000,
+                priceStyle: 'Rp. 28.000',
+                qty: 1,
+                picture: "./photo/chocorum.png",
+            },
+            {
+                nameproduct: 'black forest',
+                id :6,
+                price: 30000,
+                priceStyle: 'Rp. 30.000',
+                qty: 1,
+                picture: "./photo/blackforest.png",
+            },
+            {
+                nameproduct: 'chicken katsu',
+                id :7,
+                price: 60000,
+                priceStyle: 'Rp. 60.000',
+                qty: 1,
+                picture: "./photo/chickenkatsu.png",
+            },
+            {
+                nameproduct: 'salmon truffle',
+                id :8,
+                price: 60000,
+                priceStyle: 'Rp. 60.000',
+                qty: 1,
+                picture: "./photo/salmon.png",
+                
+            },
+            {
+                nameproduct: 'Wiener Schnitzel',
+                id :9,
+                price: 69000,
+                priceStyle: 'Rp. 69.000',
+                qty: 1,
+                picture: "./photo/wiener.png",
+            },],
             cart : []
         }
     }
