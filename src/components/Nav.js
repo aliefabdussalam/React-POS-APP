@@ -60,6 +60,7 @@ class Nav extends React.Component{
             e.preventDefault();
             const data = {id,nameproduct,picture,price,category} 
             this.props.action(data)
+            alert("produk berhasil ditambahkan")
         }
         return(
                 <div>
@@ -124,7 +125,7 @@ class Nav extends React.Component{
                                                 
                                                 <div className='btn'>
                                                     <button className='close'onClick={this.onCloseModal} type="">Close</button>
-                                                    <button className='submit' type="">Submit</button>
+                                                    <button className='submit' type="" onClick={this.onCloseModal}>Submit</button>
                                                 </div>
                                                 
                                             </form>

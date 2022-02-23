@@ -53,6 +53,10 @@
     /* padding-left: 10px; */
     /* background-color: royalblue; */
 }
+.body-listCart{
+    height: 500px;
+    overflow: scroll;
+}
 .cartTitle {
     width: 100%;
     display: flex;

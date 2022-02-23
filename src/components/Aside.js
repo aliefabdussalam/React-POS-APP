@@ -38,7 +38,7 @@ class Aside extends React.Component{
                             <p>Please add some items from the menu</p>
                         </div>
                     ): (
-                        <div>
+                        <div className='body-listCart'>
                             {
                                 data.map((e)=>{
                                     return(
